@@ -7,7 +7,10 @@ $(document).ready(function() {
     var curves = [];
     var points = [];
     var index = 0;
-    var mousePos = {x:0,y:0};
+    var mousePos = {
+        x: 0,
+        y: 0
+    };
 
     // Catch click event to create lines into canvas
     $('#mycanvas').click(function(event) {
